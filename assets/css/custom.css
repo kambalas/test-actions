@@ -1,2 +1,15 @@
-/* DO NOT WRITE ANY STYLE IN THIS FILE */
-/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
+
+input:invalid {
+  border-color: initial;
+}
+input:focus:invalid,
+input:focus-visible:invalid,
+textarea:focus:invalid {
+  border-color: red;
+}
+
+@layer components {
+  .contact-message {
+    @apply mb-6 text-white border-brand bg-brand rounded p-4;
+  }
+}

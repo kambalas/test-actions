@@ -1,0 +1,19 @@
+.btn {
+  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition;
+}
+
+.btn-sm {
+  @apply rounded-sm px-4 py-1.5 text-sm;
+}
+
+.btn-primary {
+  @apply border-brand bg-brand dark:border-darkmode-brand dark:text-text-dark text-white dark:bg-darkmode-brand;
+}
+
+.btn-outline-primary {
+  @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+}
+
+.form-message {
+  @apply hidden mb-6 text-green-600 border-brand bg-brand rounded p-4;
+}

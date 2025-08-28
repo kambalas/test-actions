@@ -1,0 +1,29 @@
+home: Home
+read_more: Read More
+send: Send
+related_posts: Related Posts
+categories: Categories
+tags: Tags
+toc: Table of Contents
+share: Share
+search_input_placeholder: Search Post...
+search_no_results: No results for
+search_initial_message: Type something to search..
+search_navigate: to navigate
+search_select: to select
+search_close: to close
+page_not_found: "Page not found"
+page_not_found_description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+back_to_home: "Back to home"
+full_name: Name and Surname
+email: Email
+message: Message
+contact_us: Contact us
+phone: Phone number
+agree_privacy: 'I agree to the <a href="/en/privacy-policy" target="_blank" rel="noopener" class="underline">Privacy Policy</a>'
+company_code: Company code
+vat_code: VAT number
+phone-nr: Phone number
+contact_intro: "You can contact us by phone or email, or by filling in the form below."
+
+
