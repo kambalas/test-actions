@@ -3,43 +3,43 @@
 # pagrindinis meniu
 [[main]]
 name = "Pradžia"
-url = "/"
+url = ""
 weight = 1
 
 [[main]]
 name = "Apie"
-url = "/about"
+url = "about"
 weight = 2
 
 
 [[main]]
 name = "Projektai"
-url = "/projects"
+url = "projects"
 weight = 4
 
 [[main]]
 parent = "Puslapiai"
 name = "Kontaktai"
-url = "/contact"
+url = "contact"
 
 [[main]]
 parent = "Puslapiai"
 name = "Kategorijos"
-url = "/categories"
+url = "categories"
 
 
 # poraštės meniu
 [[footer]]
 name = "Apie"
-url = "/about"
+url = "about"
 weight = 1
 
 [[footer]]
 name = "Kontaktai"
-url = "/contact"
+url = "contact"
 weight = 2
 
 [[footer]]
 name = "Privatumo Politika"
-url = "/privacy-policy"
+url = "privacy-policy"
 weight = 3
