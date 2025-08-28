@@ -3,17 +3,17 @@
 # main menu
 [[main]]
 name = "Home"
-url = "/"
+url = ""
 weight = 1
 
 [[main]]
 name = "About"
-url = "/about"
+url = "about"
 weight = 2
 
 [[main]]
 name = "Projects"
-url = "/projects"
+url = "projects"
 weight = 4
 
 [[main]]
@@ -23,26 +23,26 @@ name = "Pages"
 [[main]]
 parent = "Pages"
 name = "Contact"
-url = "/contact"
+url = "contact"
 
 [[main]]
 parent = "Pages"
 name = "Categories"
-url = "/categories"
+url = "categories"
 
 
 # footer menu
 [[footer]]
 name = "About"
-url = "/about"
+url = "about"
 weight = 1
 
 [[footer]]
 name = "Contact"
-url = "/contact"
+url = "contact"
 weight = 2
 
 [[footer]]
 name = "Privacy Policy"
-url = "/privacy-policy"
+url = "privacy-policy"
 weight = 3
