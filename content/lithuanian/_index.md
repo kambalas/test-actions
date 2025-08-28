@@ -35,7 +35,7 @@ features:
     button:
       enable: true
       label: "Sužinokite daugiau"
-      link: "/lt/about"
+      link: "lt/about"
 
   - title: "Kodėl renkasi mus"
     image: "/images/service-3.png"

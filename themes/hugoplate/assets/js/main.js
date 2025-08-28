@@ -1,26 +1,3 @@
-// main script
-(function () {
-  try {
-    if (sessionStorage.getItem("langRedirectDone")) return;
-
-    var path = location.pathname;
-
-    path = path.replace(/^\/(en|lt)(?=\/|$)/, "");
-
-    var langs = (navigator.languages && navigator.languages.length)
-      ? navigator.languages
-      : [navigator.language || ""];
-    var primary = (langs[0] || "").toLowerCase();
-
-    var targetLang = primary.startsWith("lt") ? "lt" : "en";
-
-    sessionStorage.setItem("langRedirectDone", "1");
-    location.replace("/" + targetLang + path);
-  } catch (e) {
-    console.warn("lang redirect error:", e);
-  }
-})();
-
 (function () {
   "use strict";
 
