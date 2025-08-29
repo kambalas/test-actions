@@ -20,20 +20,10 @@ theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["projects"]
 # contact form action
-contact_form_action = "https://website.nordicssoftware.dev/submit"
+contact_form_action = "/"
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
-custom_script = """<script type=\"application/ld+json\">
-{
-  \"@context\": \"https://schema.org\",
-  \"@type\": \"Organization\",
-  \"name\": \"Nordics Software\",
-  \"url\": \"https://nordicssoftware.dev\",
-  \"logo\": \"https://nordicssoftware.dev/images/logo.png\",
-}
-</script>"""
 
 
 # Preloader
