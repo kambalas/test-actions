@@ -35,7 +35,7 @@
   @apply prose-h3:text-h3-sm md:prose-h3:text-h3;
   @apply prose-p:text-base prose-p:text-text dark:prose-p:text-darkmode-text;
   @apply prose-a:text-text prose-a:[&.btn]:no-underline  dark:prose-a:text-darkmode-text;
-  @apply prose-img:max-w-full prose-img:rounded;
+  @apply prose-img:w-full prose-img:h-64 prose-img:object-cover prose-img:rounded;
   @apply prose-strong:text-text-dark dark:prose-strong:text-darkmode-text;
   @apply prose-hr:border-border dark:prose-hr:border-darkmode-border;
   @apply prose-pre:rounded-lg prose-pre:bg-light dark:prose-pre:bg-darkmode-light;
